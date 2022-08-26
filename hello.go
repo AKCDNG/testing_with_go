@@ -4,7 +4,7 @@ import "fmt"
 
 const englishGreetingPrefix string = "Hello, "
 const spanishGreetingPrefix string = "Hola, "
-const spanish= "Spanish"
+const spanish = "Spanish"
 
 func Hello(name string, language string) string {
 
@@ -16,7 +16,6 @@ func Hello(name string, language string) string {
 		return spanishGreetingPrefix + name + "!"
 	}
 
-	
 	return englishGreetingPrefix + name + "!"
 }
 
